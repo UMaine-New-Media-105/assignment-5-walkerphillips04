@@ -6,3 +6,4 @@ Question 1 https://editor.p5js.org/walker.phillips/sketches/CMkOIZfT-. For this 
 Question 2 https://editor.p5js.org/walker.phillips/sketches/jlRLwKu0_. For this part I added a handful more asteroids. I added 60 asteriods. I double checked and for somereason this link only works if you copy and paste it into the url because it is not picking up the underscore. 
 
 Question 3 https://editor.p5js.org/walker.phillips/sketches/ZExgq_qRn. For this part I created two different spirtes to populate the asteriod field. a breeder and a catcher. the catcher is a spaceship and the breeders are red space rocks. Then I set them up by having them move back and forth on the X axis
+

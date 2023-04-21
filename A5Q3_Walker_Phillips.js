@@ -4,7 +4,7 @@ let catchers = [];
 
 function setup() {
   createCanvas(960, 540);
-  addX = 0.1;
+   Speed = 0.1;
   for (let i = 0; i < 60; i++) {
     let x = random(width);
     let y = random(height);
@@ -95,15 +95,15 @@ class Catcher {
   constructor(x, y, size) {
     this.x = x;
     this.y = y;
-    this.addX = addX;
+    this.Speed = Speed;
   }
   move() {
-    this.x = this.x + this.addX;
+    this.x = this.x + this.Speed;
     this.y = this.y;
     let isTooFarLeft = this.x < 0;
     let isTooFarRight = this.x > width;
     if (isTooFarLeft || isTooFarRight) {
-      this.addX = -this.addX;
+      this.Speed = -this.Speed;
       this.y = random(height);
     }
   }
@@ -129,15 +129,15 @@ class Breeder {
   constructor(x, y,size) {
     this.x = x;
     this.y = y;
-    this.addX = addX;
+    this.Speed = Speed;
   }
   move() {
-    this.x = this.x + this.addX;
+    this.x = this.x + this.Speed;
     this.y = this.y;
     let isTooFarLeft = this.x < 0;
     let isTooFarRight = this.x > width;
     if (isTooFarLeft || isTooFarRight) {
-      this.addX = -this.addX;
+      this.Speed = -this.Speed;
       this.y = random(height);
     }
   }

@@ -11,12 +11,12 @@ function setup() {
     let size = random(20, 50);
     meteors.push(new meteor(x, y, size));
 
-    for (let breederDefined = 0; breederDefined < 10; breederDefined++) {
+    for (let i = 0; i < 10; i++) {
       let thisX = random(width);
       let thisY = random(height);
       breeders.push(new Breeder(thisX, thisY));
 
-      for (let catcherDefined = 0; catcherDefined < 2; catcherDefined++) {
+      for (let i = 0; i < 2; i++) {
         let thisX = random(width);
         let = random(height);
         catchers.push(new Catcher(thisX, thisY));

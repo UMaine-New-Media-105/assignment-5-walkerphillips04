@@ -7,3 +7,4 @@ Question 2 https://editor.p5js.org/walker.phillips/sketches/jlRLwKu0_. For this 
 
 Question 3 https://editor.p5js.org/walker.phillips/sketches/ZExgq_qRn. For this part I created two different spirtes to populate the asteriod field. a breeder and a catcher. the catcher is a spaceship and the breeders are red space rocks. Then I set them up by having them move back and forth on the X axis
 
+Question 4 https://editor.p5js.org/walker.phillips/sketches/pgS4ZtPVT. For this part I edited the Breeder class so that when they collide with each other they blow up.
